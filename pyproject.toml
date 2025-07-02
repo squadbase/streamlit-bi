@@ -1,0 +1,35 @@
+[project]
+name = "streamlit-business-intelligence"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "db-dtypes>=1.4.3",
+    "dotenv>=0.9.9",
+    "e2b>=1.5.1",
+    "e2b-code-interpreter>=1.5.1",
+    "google-cloud-bigquery-storage>=2.32.0",
+    "google-cloud-bigquery[pandas]>=3.34.0",
+    "google-genai>=1.19.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.4",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-google-genai>=2.1.5",
+    "langgraph>=0.4.8",
+    "openai>=1.84.0",
+    "pandas>=2.2.3",
+    "pandas-gbq>=0.29.0",
+    "plotly>=6.1.2",
+    "pydantic>=2.11.5",
+    "streamlit>=1.45.1",
+    "notebook>=7.4.3",
+    "polars>=1.30.0",
+    "pygwalker>=0.4.9.15"
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.1",
+]

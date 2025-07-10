@@ -4,6 +4,17 @@ A comprehensive business intelligence application built with Streamlit, featurin
 
 Made by [Squadbase](https://www.squadbase.dev/) - the platform for secure, scalable Streamlit deployments.
 
+## Quick Start
+
+[![Deploy to Squadbase](https://app.squadbase.dev/button.svg)](https://app.squadbase.dev/new/clone?repository-url=https://github.com/squadbase/streamlit-bi&env-var-keys=SERVICE_ACCOUNT_JSON_BASE64,GOOGLE_API_KEY,OPENAI_API_KEY,E2B_API_KEY)
+
+### Environment Variables
+
+- SERVICE_ACCOUNT_JSON_BASE64: Base64 encoded service account JSON file. You can get it from Google Cloud Console.
+- GOOGLE_API_KEY: Gemini API key
+- OPENAI_API_KEY: OpenAI API key
+- E2B_API_KEY: E2B API key
+
 ## ✨ Features
 
 ### 📈 Google Analytics 4 Dashboard

@@ -6,6 +6,8 @@ Made by [Squadbase](https://www.squadbase.dev/) - the platform for secure, scala
 
 ## Quick Start
 
+Click the button to clone this repository and deploy it on Squadbase.
+
 [![Deploy to Squadbase](https://app.squadbase.dev/button.svg)](https://app.squadbase.dev/new/clone?repository-url=https://github.com/squadbase/streamlit-bi&env-var-keys=SERVICE_ACCOUNT_JSON_BASE64,GOOGLE_API_KEY,OPENAI_API_KEY,E2B_API_KEY)
 
 ### Environment Variables
